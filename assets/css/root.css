@@ -1,0 +1,138 @@
+:root {
+    /* font-size */
+    --fs-xxs: 12px;
+    --fs-xs: 14px;
+    --fs-s: 16px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 18px;
+    --fs-xl: 28px;
+    --fs-2xl: 32px;
+    /* colors */
+    --bs-orange: #F36A3E;
+    --bs-basicblack: #000000;
+    --bs-black: #0A0A0A;
+    --bs-offwhite: #FAFAFA;
+    --bs-lightwhite: #FFFDFF;
+    --bs-15black: #00000026;
+    --bs-black2: #010101;
+    --bs-3black: #00000008;
+    --bs-4black: #0000000A;
+    --bs-lightgrey: #F9F9F9;
+    --bs-black1: #070707;
+}
+
+.fs-12 {
+    font-size: var(--fs-xxs);
+}
+
+.fs-14 {
+    font-size: var(--fs-xs);
+}
+
+.fs-16 {
+    font-size: var(--fs-s);
+}
+
+.fs-20 {
+    font-size: var(--fs-sm);
+}
+
+.fs-22 {
+    font-size: var(--fs-md)
+}
+
+.fs-24 {
+    font-size: var(--fs-lg);
+}
+
+.fs-40 {
+    font-size: var(--fs-xl);
+}
+
+.fs-52 {
+    font-size: var(--fs-2xl);
+}
+
+.ff-rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.ff-work {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.bs-orange {
+    color: var(--bs-orange);
+}
+
+.bg-orange {
+    background-color: var(--bs-orange);
+}
+
+.bs-offwhite {
+    color: var(--bs-offwhite);
+}
+
+.bg-offwhite {
+    background-color: var(--bs-offwhite);
+}
+
+.bs-basicblack {
+    color: var(--bs-basicblack);
+}
+
+.bs-black {
+    color: var(--bs-black);
+}
+
+.bs-black2 {
+    color: var(--bs-black2);
+}
+
+.bs-lightwhite {
+    color: var(--bs-lightwhite);
+}
+
+.bg-lightwhite {
+    background-color: var(--bs-lightwhite);
+}
+
+.bg-lightgrey {
+    background-color: var(--bs-lightgrey);
+}
+
+.bg-black1 {
+    background-color: var(--bs-black1);
+}
+
+
+
+@media (min-width:768px) {
+    :root {
+        /* font-size */
+        --fs-xxs: 12px;
+        --fs-xs: 14px;
+        --fs-s: 16px;
+        --fs-sm: 20px;
+        --fs-md: 22px;
+        --fs-lg: 24px;
+        --fs-xl: 30px;
+        --fs-2xl: 52px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        /* font-size */
+        --fs-xxs: 12px;
+        --fs-xs: 14px;
+        --fs-s: 16px;
+        --fs-sm: 20px;
+        --fs-md: 22px;
+        --fs-lg: 24px;
+        --fs-xl: 40px;
+        --fs-2xl: 52px;
+    }
+
+}

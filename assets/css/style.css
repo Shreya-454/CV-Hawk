@@ -1,0 +1,882 @@
+@import url(./root.css);
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+.my-container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.getbtn {
+    border: transparent;
+    padding: 13px 22px;
+    border-radius: 41px;
+    transition: all 300ms linear;
+}
+
+.getbtn:hover {
+    background-color: var(--bs-offwhite);
+    color: var(--bs-orange);
+    border: 1px solid var(--bs-orange);
+}
+
+.back-btn {
+    padding: 8px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.circle1:hover {
+    background-color: var(--bs-offwhite);
+    border: 1px solid var(--bs-orange);
+}
+
+.circle1:hover svg path {
+    fill: var(--bs-orange)
+}
+
+.pos-fix1 {
+    position: fixed;
+    bottom: 57px;
+    right: 20px;
+    z-index: 2;
+}
+
+.br-21 {
+    border-radius: 21px;
+}
+
+.check svg {
+    width: 20px;
+    height: 20px;
+}
+
+.line1 {
+    position: relative;
+}
+
+.line1::after {
+    width: 100%;
+    height: 11px;
+    background: linear-gradient(219.36deg, #FFA78A 0%, #FF7A34 100%);
+    position: absolute;
+    bottom: 10%;
+
+}
+
+.max-w766 {
+    max-width: 300px;
+}
+
+.max-w565 {
+    max-width: 300px;
+}
+
+.max-w499 {
+    max-width: 100%;
+}
+
+.max-w561 {
+    max-width: 561px;
+}
+
+.max-w487 {
+    max-width: 100%;
+}
+
+.max-w669 {
+    max-width: 669px;
+}
+
+.max-w615 {
+    max-width: 615px;
+}
+
+.max-w373 {
+    max-width: 373px;
+}
+
+.opacity-70 {
+    opacity: 70%;
+}
+
+.opacity-80 {
+    opacity: 80%;
+}
+
+.opacity-90 {
+    opacity: 90%;
+}
+
+.pb-35 {
+    padding-bottom: 35px;
+}
+
+.me-17 {
+
+    margin-right: 17px;
+}
+
+.ms-6 {
+    margin-left: 6px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.py-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.py-64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.pt-82 {
+    padding-top: 82px;
+}
+
+.pb-69 {
+    padding-bottom: 69px;
+}
+
+.pt-160 {
+    padding-top: 160px;
+}
+
+.py-160 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.py-80 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.foot-line {
+    border-top: 1px solid var(--bs-offwhite);
+    width: 100%;
+}
+
+.ellipse1 {
+    border-radius: 626px;
+    opacity: 0.5;
+    background: var(--bs-orange);
+    filter: blur(120.5px);
+    width: 626px;
+    height: 115px;
+    position: absolute;
+    top: 40%;
+    z-index: -1;
+    left: -22%;
+}
+
+.rotate {
+    animation-name: rotate;
+    animation-timing-function: ease;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translate(10px);
+    }
+
+    50% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+.bounce {
+    animation-name: bounce;
+}
+
+@keyframes bounce {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+.jump {
+    animation-name: jump;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-10%);
+    }
+
+}
+
+.papercard1 {
+    position: absolute;
+    top: 0%;
+    left: 6%;
+    align-self: flex-end;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: left;
+}
+
+.papercard2 {
+    position: absolute;
+    bottom: -5%;
+    left: 0%;
+    align-self: flex-end;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: right;
+}
+
+.papercard3 {
+    position: absolute;
+    top: 2%;
+    right: 11%;
+    align-self: flex-end;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.papercard4 {
+    position: absolute;
+    right: 1%;
+    top: 58%;
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: right;
+}
+
+.bounce1 {
+    animation-name: bounce1;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce1 {
+    0% {
+        transform: translateY(-20%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-20%);
+    }
+}
+
+.ball1 {
+    position: absolute;
+    top: 1%;
+    left: 19%;
+    align-self: flex-end;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform-origin: right;
+}
+
+.brick1 {
+    position: absolute;
+    left: 1%;
+    top: 81%;
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+}
+
+.pills1 {
+    position: absolute;
+    top: 82%;
+    left: 46%;
+}
+
+.semi-circle1 {
+    position: absolute;
+    top: 68%;
+    right: 6%;
+    align-self: flex-end;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.ellipse2 {
+    width: 184px;
+    height: 159px;
+    background: var(--bs-orange);
+    opacity: 0.5;
+    filter: blur(120.5px);
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+
+.ellipse3 {
+    width: 184px;
+    height: 159px;
+    background: var(--bs-orange);
+    opacity: 0.5;
+    filter: blur(120.5px);
+    position: absolute;
+    right: 0;
+    bottom: 23%;
+}
+
+.ball2 {
+    position: absolute;
+    top: 11%;
+    left: 5%;
+    align-self: flex-end;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform-origin: right;
+}
+
+.uline {
+    background-image: url(../images/uline.png);
+    height: 8px;
+    width: 100%;
+    border-radius: 30px;
+    position: absolute;
+    bottom: -2%;
+    left: 0;
+    background-position: center;
+}
+
+.uline2 {
+    background-image: url(../images/uline2.png);
+    height: 11px;
+    width: 100%;
+    border-radius: 30px;
+    position: absolute;
+    bottom: -22%;
+    left: 0;
+    background-position: center;
+}
+
+.semi-circle2 {
+    position: absolute;
+    bottom: 15%;
+    left: 42%;
+    align-self: flex-end;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+}
+
+.brick2 {
+    position: absolute;
+    top: 13%;
+    right: 4%;
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+}
+
+.ellipse4 {
+    width: 165px;
+    height: 143px;
+    background: var(--bs-orange);
+    opacity: 0.5;
+    filter: blur(120.5px);
+    position: absolute;
+    right: 0;
+    top: 28%;
+}
+
+.ellipse5 {
+    width: 165px;
+    height: 143px;
+    background: var(--bs-orange);
+    opacity: 0.5;
+    filter: blur(120.5px);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.ellipse6 {
+    width: 165px;
+    height: 143px;
+    background: var(--bs-orange);
+    opacity: 0.5;
+    filter: blur(120.5px);
+    position: absolute;
+    right: 35%;
+    top: 45%;
+}
+
+.quotes {
+    position: absolute;
+    left: -9px;
+    top: -108%;
+}
+
+
+.transform-Y {
+    transform: translateY(14%);
+}
+
+/* preloader */
+.duration-300 {
+    transition: 300ms linear;
+}
+
+.pointer_event_none {
+    pointer-events: none;
+}
+
+.z_3 {
+    z-index: 3;
+}
+
+.animation {
+    animation: swing 2s linear infinite;
+}
+
+@keyframes swing {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.slider-card1 {
+    border: 1px solid var(--bs-3black);
+    box-shadow: 0px 4px 30px var(--bs-4black);
+    max-width: 156px;
+    padding-top: 27px;
+    border-radius: 8px;
+    color: var(--bs-basicblack);
+}
+
+.slider-card1:hover {
+    border: 1px solid var(--bs-orange);
+    color: var(--bs-orange);
+}
+
+.slider1 .slick-dots li button:before {
+    content: unset;
+}
+
+.slider3 .slick-dots li button:before {
+    content: unset;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 5px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    opacity: 10%;
+    background-color: var(--bs-basicblack);
+    border-radius: 6px;
+}
+
+.slider1 .slick-dots li.slick-active {
+    background-color: var(--bs-orange);
+    width: 23px !important;
+    opacity: 100%;
+}
+
+.slider3 .slick-dots li.slick-active {
+    background-color: var(--bs-orange);
+    width: 23px !important;
+    opacity: 100%;
+}
+
+/* slider2 */
+.br-72 {
+    border-radius: 72px;
+}
+
+.clients-card {
+    padding: 15px 18px 14px 18px;
+    max-width: 357px;
+    border-radius: 10px;
+    background: var(--white2);
+    box-shadow: 0px 18px 59px 0px rgba(0, 0, 0, 0.07);
+}
+
+.bg-clients-sec {
+    background-color: var(--white2);
+}
+
+.svg_trangle {
+    position: absolute;
+    bottom: -15;
+    left: 8%;
+}
+
+.clients-left-ellipse {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 165px;
+    height: 143px;
+    background: var(--orange);
+    opacity: 0.5;
+    filter: blur(120.5px);
+    z-index: -1;
+}
+
+.circle1 {
+    width: 41.69px;
+    height: 41.69px;
+    border-radius: 50%;
+    background-color: var(--bs-orange);
+}
+
+.pos-ab1 {
+    position: absolute;
+    top: 91%;
+    left: 29%;
+}
+
+.pos-ab2 {
+    position: absolute;
+    right: 29%;
+    top: 91%;
+}
+
+/* accordian */
+.accordion-item {
+    max-width: 856px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-black2);
+    background-color: transparent;
+    box-shadow: unset
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border: none;
+    outline: 0;
+    box-shadow: unset;
+}
+
+@media (min-width:360px) {
+    .getbtn {
+        border: none;
+        padding: 17px 38px;
+        border-radius: 41px;
+    }
+}
+
+@media (min-width:576px) {
+    .pos-ab1 {
+        position: absolute;
+        top: 51%;
+        left: 1%;
+    }
+
+    .max-w565 {
+        max-width: 565px;
+    }
+
+    .max-w766 {
+        max-width: 500px;
+    }
+
+    .pos-ab2 {
+        position: absolute;
+        right: 1%;
+        top: 51%;
+    }
+
+    .transform-Y {
+        transform: translateY(27%);
+    }
+}
+
+@media (min-width:768px) {
+    .max-w487 {
+        max-width: 487px;
+    }
+
+    .max-w766 {
+        max-width: 766px;
+    }
+
+    .check svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .py-160 {
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+
+    .brick1 {
+        position: absolute;
+        left: 1%;
+        top: 40%;
+    }
+
+    .min-vh-md-100 {
+        min-height: 100vh !important;
+    }
+
+    .uline {
+        background-image: url(../images/uline.png);
+        height: 11px;
+        width: 100%;
+        border-radius: 30px;
+        position: absolute;
+        bottom: -2%;
+        left: 0;
+
+    }
+
+    .ellipse1 {
+        border-radius: 626px;
+        opacity: 0.5;
+        background: var(--bs-orange);
+        filter: blur(120.5px);
+        width: 626px;
+        height: 115px;
+        position: absolute;
+        top: 40%;
+        z-index: -1;
+        left: 24%;
+    }
+
+    .semi-circle1 {
+        position: absolute;
+        top: 47%;
+        right: 6%;
+    }
+
+    .py-70 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .ball1 {
+        position: absolute;
+        top: 22%;
+        left: 35%;
+    }
+
+    .py-160 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .py-80 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width:992px) {
+    .papercard1 {
+        position: absolute;
+        top: -7%;
+        left: -3%;
+    }
+
+    .papercard2 {
+        position: absolute;
+        bottom: -5%;
+        left: 0%;
+    }
+
+    .papercard3 {
+        position: absolute;
+        top: -6%;
+        right: 0%;
+    }
+
+    .py-80 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .papercard4 {
+        position: absolute;
+        right: 1%;
+        top: 49%;
+    }
+
+
+    /* 
+    .brick1 {
+        position: absolute;
+        left: 1%;
+        top: 40%;
+    } */
+
+    .max-w499 {
+        max-width: 499px;
+    }
+}
+
+@media (min-width:1200px) {
+    .papercard1 {
+        position: absolute;
+        top: -1%;
+        left: 0%;
+    }
+
+    .papercard2 {
+        position: absolute;
+        bottom: -2%;
+        left: 4%;
+    }
+
+    .papercard3 {
+        position: absolute;
+        top: -4%;
+        right: 2%;
+    }
+
+    .papercard4 {
+        position: absolute;
+        right: 4%;
+        top: 47%;
+    }
+
+    .brick1 {
+        position: absolute;
+        left: 1%;
+        top: 72%;
+    }
+
+
+}
+
+/* -------====navbar====-----*/
+@media (max-width: 991.98px) {
+    .mobile_view {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        min-height: 100vh;
+        background-color: white;
+        transition: 300ms linear;
+        flex-direction: column;
+        z-index: 2;
+    }
+
+    .overflow_hidden {
+        overflow: hidden;
+    }
+
+    .line1,
+    .line2,
+    .line3 {
+        width: 35px;
+        min-height: 4px;
+        background-color: black;
+        transition: 300ms linear;
+    }
+
+    .cross .line1 {
+        transform: rotate(50deg) translate(18px, 16px);
+        background: var(--bs-orange);
+        height: 5px;
+        width: 32px;
+        border-radius: 12px;
+
+    }
+
+    .cross .line2 {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    .cross .line3 {
+        transform: rotate(-50deg) translateY(-50%);
+        background: var(--bs-orange);
+        height: 5px;
+        width: 32px;
+        border-radius: 12px;
+    }
+
+    .nav-menu {
+        color: var(--bs-teritary);
+        transition: all 300ms linear;
+        opacity: 0.8;
+    }
+
+    .nav-menu:hover {
+        color: var(--bs-teritary);
+    }
+
+
+}
+
+.nav-line:hover::after {
+    width: 100%;
+    transition: all 300ms linear;
+}
+
+.nav-line::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    left: 0;
+    height: 2px;
+    border-radius: 15px;
+    background-color: var(--bs-orange);
+    bottom: -12px;
+    transition: all 300ms linear;
+}

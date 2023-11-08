@@ -1,0 +1,218 @@
+ <section class="bg-clients-sec position-relative">
+        <span class="clients-left-ellipse d-none d-sm-block"></span>
+        <div class="container my-container py-5 position-relative">
+            <h2 class="mb-0 ff-rubik fw-medium fs-xxl text_black2 text-center">What our Clients Say</h2>
+            <div class="clients-slider pt-4">
+                <div class="mx-3">
+                    <div class=" d-flex align-items-center">
+                        <div class="mt-lg-5">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Sit urna ornare sed quam
+                                    molestie
+                                    sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/darrell_men.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Darrell Steward</p>
+                                    <span><img src="./assets/image/star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-4  mt-5 mt-lg-0 d-none d-sm-block">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Magna ipsum erat magna nulla
+                                    auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/women_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Savannah Nguyen</p>
+                                    <span><img src="./assets/image/star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-5 d-none d-lg-block">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Morbi leo ullamcorper in et
+                                    viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/howard_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Esther Howard</p>
+                                    <span><img src="./assets/image/star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" d-sm-flex align-items-center justify-content-center pt-4 d-none">
+                        <div class="">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Urna ac eu cras pellentesque
+                                    scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/jenny_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Jenny Wilson</p>
+                                    <span><img src="./assets/image/star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ms-4 mt-5">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Nibh in commodo faucibus
+                                    tincidunt.
+                                    Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/wade_warren.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Wade Warren</p>
+                                    <span><img src="./assets/image/star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-3">
+                    <div class=" d-flex align-items-center">
+                        <div class="mt-lg-5 d-none d-sm-block">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Sit urna ornare sed quam
+                                    molestie
+                                    sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/darrell_men.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Darrell Steward</p>
+                                    <span><img src="./assets/image/star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-4 mt-5 mt-lg-0 ">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Magna ipsum erat magna nulla
+                                    auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/women_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Savannah Nguyen</p>
+                                    <span><img src="./assets/image/star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-5 d-none d-lg-block">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Morbi leo ullamcorper in et
+                                    viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/howard_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Esther Howard</p>
+                                    <span><img src="./assets/image/star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="  d-none d-sm-flex align-items-center justify-content-center pt-4">
+                        <div class="">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Urna ac eu cras pellentesque
+                                    scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/jenny_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Jenny Wilson</p>
+                                    <span><img src="./assets/image/star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ms-4 mt-5">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Nibh in commodo faucibus
+                                    tincidunt.
+                                    Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/wade_warren.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Wade Warren</p>
+                                    <span><img src="./assets/image/star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-4 justify-content-center justify-content-sm-start">
+                <button class="pre1  svg_hover button_slider preview"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                        height="30" viewBox="0 0 30 30" fill="none">
+                        <path
+                            d="M17.5484 4.77911L8.34203 14.2235C8.18034 14.3894 8.08984 14.6119 8.08984 14.8436C8.08984 15.0752 8.18034 15.2977 8.34203 15.4636L17.5484 24.9116C17.6237 24.9889 17.7138 25.0504 17.8132 25.0924C17.9127 25.1344 18.0196 25.156 18.1276 25.156C18.2355 25.156 18.3424 25.1344 18.4419 25.0924C18.5414 25.0504 18.6314 24.9889 18.7067 24.9116C18.8617 24.7529 18.9484 24.5399 18.9484 24.3182C18.9484 24.0964 18.8617 23.8834 18.7067 23.7248L10.0493 14.8436L18.7067 5.9641C18.8612 5.80554 18.9476 5.59295 18.9476 5.37161C18.9476 5.15027 18.8612 4.93768 18.7067 4.77911C18.6314 4.70175 18.5414 4.64027 18.4419 4.59828C18.3424 4.5563 18.2355 4.53467 18.1276 4.53467C18.0196 4.53467 17.9127 4.5563 17.8132 4.59828C17.7138 4.64027 17.6237 4.70175 17.5484 4.77911Z"
+                            fill="#F36A3E" />
+                    </svg></button>
+                <button class="next1 svg_hover button_slider next "><svg xmlns="http://www.w3.org/2000/svg" width="29"
+                        height="30" viewBox="0 0 29 30" fill="none">
+                        <path
+                            d="M11.8344 4.77911L21.0408 14.2235C21.2025 14.3894 21.293 14.6119 21.293 14.8436C21.293 15.0752 21.2025 15.2977 21.0408 15.4636L11.8344 24.9116C11.7591 24.9889 11.669 25.0504 11.5696 25.0924C11.4701 25.1344 11.3632 25.156 11.2553 25.156C11.1473 25.156 11.0404 25.1344 10.9409 25.0924C10.8415 25.0504 10.7514 24.9889 10.6761 24.9116C10.5211 24.7529 10.4344 24.5399 10.4344 24.3182C10.4344 24.0964 10.5211 23.8834 10.6761 23.7248L19.3335 14.8436L10.6761 5.9641C10.5217 5.80554 10.4352 5.59295 10.4352 5.37161C10.4352 5.15027 10.5217 4.93768 10.6761 4.77911C10.7514 4.70175 10.8415 4.64027 10.9409 4.59828C11.0404 4.5563 11.1473 4.53467 11.2553 4.53467C11.3632 4.53467 11.4701 4.5563 11.5696 4.59828C11.669 4.64027 11.7591 4.70175 11.8344 4.77911Z"
+                            fill="#F36A3E" />
+                    </svg></button>
+            </div>
+        </div>
+    </section>
