@@ -18,7 +18,7 @@
 }
 
 .getbtn {
-    border: transparent;
+    border: 1px solid transparent;
     padding: 13px 22px;
     border-radius: 41px;
     transition: all 300ms linear;
@@ -73,7 +73,12 @@
     bottom: 10%;
 
 }
-
+.head{
+    transition: all 300ms linear;
+}
+.head:hover{
+    color: var(--bs-orange);
+}
 .max-w766 {
     max-width: 300px;
 }
@@ -612,7 +617,7 @@
 
 @media (min-width:360px) {
     .getbtn {
-        border: none;
+        border: 1px solid transparent;
         padding: 17px 38px;
         border-radius: 41px;
     }
